@@ -156,8 +156,6 @@
     margin-left: 20px;
     font-size: 12px;
     font : bold;
-    
-
 }
 #noticetxt2 {
     position: absolute;
@@ -165,8 +163,6 @@
     margin-top: 20px;
     font-size: 12px;
     font : bold;
-    
-
 }
 #noticetxt3 {
     position: absolute;
@@ -174,8 +170,6 @@
     margin-top: 40px;
     font-size: 12px;
     font : bold;
-    
-
 }
 #noticetxt4 {
     position: absolute;
@@ -183,6 +177,32 @@
     margin-top: 60px;
     font-size: 12px;
     font : bold;
-    
-
+}
+#noticedate1 {
+    position: absolute;
+    font-size: 12px;
+    font: bold;
+    margin-top: px;
+    margin-left: 180px;
+}
+#noticedate2 {
+    position: absolute;
+    font-size: 12px;
+    font: bold;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+#noticedate3 {
+    position: absolute;
+    font-size: 12px;
+    font: bold;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+#noticedate4 {
+    position: absolute;
+    font-size: 12px;
+    font: bold;
+    margin-top: 60px;
+    margin-left: 180px;
 }
