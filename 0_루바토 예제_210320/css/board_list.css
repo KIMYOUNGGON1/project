@@ -97,6 +97,7 @@
     font: bold;
 }
 #imgtext2{
+    writing-mode: horizontal-tb;
     margin-top: 5px;
     margin-left: 200px;
     position: absolute;
@@ -105,6 +106,7 @@
     font: bold;
 }
 #imgtext3{
+    writing-mode: horizontal-tb;
     margin-top: 5px;
     margin-left: 350px;
     position: absolute;
@@ -113,16 +115,18 @@
     font: bold;
 }
 #imgtext4{
+    writing-mode: horizontal-tb;
     margin-top: 5px;
-    margin-left: 500px;
+    margin-left: 480px;
     position: absolute;
     top: 30px;
     color: white;
     font: bold;
 }
 #imgtext5{
+    writing-mode: horizontal-tb;
     margin-top: 5px;
-    margin-left: 700px;
+    margin-left: 630px;
     position: absolute;
     top: 30px;
     color: white;
