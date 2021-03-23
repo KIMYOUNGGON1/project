@@ -18,12 +18,14 @@
     width: 1600px;
     position: absolute;
     left: 10%;
-
 }
 #row3content {
     text-align: center;
     padding: 5px;
 }
+
+/*기본 틀*/
+
 #logobox {
    margin-left: 60px;
    margin-top: 30px;
@@ -131,4 +133,56 @@
     top: 30px;
     color: white;
     font: bold;
+}
+#mainimg {
+    margin-top: 10px;
+}
+#notice {
+    width: 400px;
+    height: 200px;
+}
+#notice_title1 {
+    margin-left: 2px;
+}
+#notice_more {
+    margin-left: 290px;
+}
+#notice_book {
+    margin-left: 30px;
+    position: relative;
+}
+#noticetxt1 {
+    position: absolute;
+    margin-left: 20px;
+    font-size: 12px;
+    font : bold;
+    
+
+}
+#noticetxt2 {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+    font : bold;
+    
+
+}
+#noticetxt3 {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 12px;
+    font : bold;
+    
+
+}
+#noticetxt4 {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 60px;
+    font-size: 12px;
+    font : bold;
+    
+
 }
