@@ -139,7 +139,7 @@
 }
 #notice {
     width: 400px;
-    height: 200px;
+    height: 125px;
 }
 #notice_title1 {
     margin-left: 2px;
@@ -205,4 +205,14 @@
     font: bold;
     margin-top: 60px;
     margin-left: 180px;
+}
+#free {
+    width: 400px;
+    height: 125px;
+}
+#free_title1 {
+    margin-left: 2px;
+}
+#free_more {
+    margin-left: 275px;
 }
