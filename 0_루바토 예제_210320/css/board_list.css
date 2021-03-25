@@ -310,8 +310,10 @@
     border: 2px grey solid;
     border-radius: 5px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
 }
+/*
 #galleryPhoto1 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -334,6 +336,7 @@
 .photoBoxText1 {
     margin-left: 100px;
 }
+*/
 
 
 
