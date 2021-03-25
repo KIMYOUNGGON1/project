@@ -277,17 +277,13 @@
     margin-top: 60px;
     margin-left: 180px;
 }
-/* #youtube {
+ #youtube {
     width: 400px;
-    height: 250px;
-    margin-left: 400px;
-    margin-bottom: 500px;
-    position: absolute;
-} */
+    height: 250px;   
+} 
 #youtubetitle {
     margin-left: 2px;
     /* margin-bottom : 500px; */
-    
 }
 #content-container {
     display: flex;
