@@ -10,6 +10,7 @@
     width: 750px;
     height: 800px;
     background-color: rgb(231, 16, 16);
+    position: relative;
 }
 .row3 {
     box-sizing: content-box;
@@ -215,4 +216,74 @@
 }
 #free_more {
     margin-left: 275px;
+}
+#free_book {
+    margin-left: 30px;
+    position: relative;
+}
+#free_text1 {
+    position: absolute;
+    margin-left: 20px;
+    font-size: 12px;
+    font : bold;
+}
+#free_text2 {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+    font : bold;
+}
+#free_text3 {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 12px;
+    font : bold;
+}
+#free_text4 {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 60px;
+    font-size: 12px;
+    font : bold;
+}
+#freedate1 {
+    position: absolute;
+    font-size: 12px;
+    font: bold;
+    margin-top: px;
+    margin-left: 180px;
+}
+#freedate2 {
+    position: absolute;
+    font-size: 12px;
+    font: bold;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+#freedate3 {
+    position: absolute;
+    font-size: 12px;
+    font: bold;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+#freedate4 {
+    position: absolute;
+    font-size: 12px;
+    font: bold;
+    margin-top: 60px;
+    margin-left: 180px;
+}
+#youtube {
+    width: 400px;
+    height: 250px;
+    margin-left: 400px;
+    margin-bottom: 500px;
+    position: absolute;
+}
+#youtubetitle {
+    margin-left: 2px;
+    margin-bottom : 500px;
 }
