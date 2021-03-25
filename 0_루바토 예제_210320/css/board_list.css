@@ -210,6 +210,7 @@
 #free {
     width: 400px;
     height: 125px;
+    /* float: left; */
 }
 #free_title1 {
     margin-left: 2px;
@@ -276,14 +277,18 @@
     margin-top: 60px;
     margin-left: 180px;
 }
-#youtube {
+/* #youtube {
     width: 400px;
     height: 250px;
     margin-left: 400px;
     margin-bottom: 500px;
     position: absolute;
-}
+} */
 #youtubetitle {
     margin-left: 2px;
-    margin-bottom : 500px;
+    /* margin-bottom : 500px; */
+    
+}
+#content-container {
+    display: flex;
 }
