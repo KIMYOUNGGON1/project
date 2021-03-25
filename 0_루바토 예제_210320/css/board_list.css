@@ -7,6 +7,7 @@
 .row2 {
     margin-right: 200px;
     margin-left: 700px;
+    margin-bottom: 30px;
     width: 750px;
     height: 800px;
     background-color: rgb(231, 16, 16);
@@ -139,14 +140,14 @@
     margin-top: 10px;
 }
 #notice {
-    width: 400px;
+    width: 380px;
     height: 125px;
 }
 #notice_title1 {
     margin-left: 2px;
 }
 #notice_more {
-    margin-left: 290px;
+    margin-left: 265px;
 }
 #notice_book {
     margin-left: 30px;
@@ -208,7 +209,7 @@
     margin-left: 180px;
 }
 #free {
-    width: 400px;
+    width: 380px;
     height: 125px;
     /* float: left; */
 }
@@ -216,7 +217,7 @@
     margin-left: 2px;
 }
 #free_more {
-    margin-left: 275px;
+    margin-left: 255px;
 }
 #free_book {
     margin-left: 30px;
@@ -279,7 +280,8 @@
 }
  #youtube {
     width: 400px;
-    height: 250px;   
+    height: 250px; 
+    margin-left: 15px;  
 } 
 #youtubetitle {
     margin-left: 2px;
@@ -287,4 +289,37 @@
 }
 #content-container {
     display: flex;
+}
+#youtubeTitle {
+    margin-left: 10px;
+}
+#youtubeMore {
+    margin-left: 195px;
+}
+#youtubeMovie {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+#gallery {
+    margin-top: 15px;
+}
+#galleryTitle {
+    margin-left: 2px;
+}
+#galleryBorder {
+    border: 2px grey solid;
+    border-radius: 5px;
+}
+#galleryPhoto1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+#galleryPhoto2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#galleryPhoto3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
