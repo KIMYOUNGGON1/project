@@ -14,16 +14,18 @@
     position: relative;
 }
 .row3 {
-    box-sizing: content-box;
-    border-top: 10px solid black;
+    border-top: 1px solid gray;
     height: 200px;
-    width: 1600px;
-    position: absolute;
-    left: 10%;
+    width: 1050px;
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-evenly;
 }
 #row3content {
-    text-align: center;
-    padding: 5px;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: space-around;
 }
 
 /*기본 틀*/
@@ -313,31 +315,35 @@
     justify-content: space-around;
     text-align: center;
 }
-/*
+/* css-tricks 사이트 이용 */
+
+
 #galleryPhoto1 {
     margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 40px;
 }
 #galleryPhoto2 {
     margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 45px;
-    margin-right: 45px;
 }
 #galleryPhoto3 {
     margin-top: 20px;
-    margin-bottom: 20px;
 }
-#galleryText {
+/* #galleryText {
     display: flex;
     align-items: center;
 }
 .photoBoxText1 {
-    margin-left: 100px;
+    margin-left: 100px; */
 }
-*/
 
+/* #row3Image {
+    position: relative;
+} */
 
+#row3_content1 {
+    margin-left: 150px;
+    
+}
 
-
+#row3_content3 {
+    margin-left: 150px;
+}
