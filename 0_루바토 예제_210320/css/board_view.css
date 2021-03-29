@@ -1,18 +1,13 @@
-.whole {
-    width: 1365px;
-    height: 861px;
-    background-color: red;
-    margin-left: 300px;
-}
 .window1 {
     float: left;
     width: 285px;
     height: 711px;
     background-color: royalblue;
+    margin-left: 300px;
 
 }
 .window2 {
-    margin-left: 285px;
+    margin-left: 585px;
     width: 1080px;
     height: 711px;
     background-color: saddlebrown;
@@ -21,6 +16,7 @@
     width: 1365px;
     height: 150px;
     background-color: sandybrown;
+    margin-left: 300px;
 }
 #mainLogo {
     margin-left: 71px;
@@ -31,30 +27,33 @@
     width: 240px;
     height: 150px;
     margin-left: 25px;
-    background-color: silver;
+    background-color: cornsilk;
 }
+/* .text_box {
+    display: inline-block;
+} */
 #loginbox h3 {
-    margin-left: 15px;
     float: left;
-    font-weight: bold;
+    margin-left: 5%;
     color: seagreen;
 }
 #loginbox h4 {
-    float: left;
-    margin-left: 10px;
-    font-size: 20px;
+    float:left;
+    margin-left: 3%;
 }
 #idBox {
     width: 50%;
-    height: 10%;
     margin-left: 20px;
 }
 #passwordInput {
     width: 50%;
-    height: 10%;
     margin-left: 20px;
 }
 #loginImage {
     float: right;
     margin-right: 5%;
+}
+#loginbox_join {
+    margin-top: 5%;
+    margin-left: 5%;
 }
