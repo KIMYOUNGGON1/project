@@ -38,7 +38,7 @@
     color: seagreen;
 }
 #loginbox h4 {
-    float:left;
+    /* float:left; */
     margin-left: 3%;
 }
 #idBox {
@@ -51,9 +51,41 @@
 }
 #loginImage {
     float: right;
-    margin-right: 5%;
+    margin-right: 7%;
 }
 #loginbox_join {
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 7%;
 }
+#loginbox_search {
+    margin-top: 5%;
+    margin-left: 2%;
+}
+/* .community_image_box{
+    float: left;
+} */
+#community {
+    margin-top: 10%;
+    margin-left: 8%;
+    position: relative;
+    
+}
+/* .community_text_box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top
+
+} */
+.community_text_box {
+    margin-top: 50px;
+    padding-top: 100px;
+    width: 186px;
+    height: 324px;
+    background-color: #fff;
+    background-image: url("../img/sub_menu_bg.png");
+}
+/* #community_text {
+    margin-left: 10%;
+    
+} */
