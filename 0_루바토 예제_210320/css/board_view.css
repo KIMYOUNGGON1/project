@@ -8,12 +8,12 @@
 }
 .window2 {
     margin-left: 640px;
-    width: 800px;
+    width: 850px;
     height: 711px;
     background-color: saddlebrown;
 }
 .window3 {
-    width: 1040px;
+    width: 1002px;
     height: 150px;
     background-color: sandybrown;
     margin-left: 400px;
@@ -133,5 +133,8 @@
     margin-right: 5px;
 }
 #top_right_NOTICE {
-    padding-right: 3%;
+    padding-right: 5%;
+}
+#main_menu_bar img {
+    
 }
