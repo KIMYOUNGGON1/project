@@ -2,30 +2,32 @@
     float: left;
     width: 285px;
     height: 711px;
-    background-color: royalblue;
-    margin-left: 300px;
+    /* background-color: royalblue; */
+    margin-left: 400px;
 
 }
 .window2 {
-    margin-left: 585px;
-    width: 1080px;
+    margin-left: 640px;
+    width: 800px;
     height: 711px;
     background-color: saddlebrown;
 }
 .window3 {
-    width: 1365px;
+    width: 1040px;
     height: 150px;
     background-color: sandybrown;
-    margin-left: 300px;
+    margin-left: 400px;
 }
 #mainLogo {
-    margin-left: 71px;
+    margin-left: 20%;
+    margin-bottom: 3%;
+
 }
 #loginbox {
     border: grey solid 2px;
     border-radius: 10px;
-    width: 240px;
-    height: 120px;
+    width: 200px;
+    height: 125px;
     margin-left: 25px;
     background-color: cornsilk;
 }
@@ -51,7 +53,7 @@
 }
 #loginImage {
     float: right;
-    margin-right: 7%;
+    margin-right: 3%;
 }
 #loginbox_join {
     margin-top: 5%;
@@ -68,32 +70,68 @@
     
 }
 .community_text_box {
-    margin-top: 10%;
-    margin-left: 9%;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-bottom: none;
     width: 240px;
-    height: 350px;
+    height: 310px;
     background-image: url("../img/sub_menu_bg.png"); background-repeat: no-repeat;
-    background-size: 190px;
+    background-size: 180px;
     display: flex;
     flex-direction: column;
 }
 #community_text1 {
-    padding-left: 10%;
+    padding-left: 6%;
     margin-bottom: 1px;
-    margin-top: 40%;
+    margin-top: 30%;
+    font-size: 15px;
 }
 #community_text2 {
-    padding-left: 10%;
+    padding-left: 6%;
     margin-bottom: 1px;
+    font-size: 15px;
 } 
 #community_text3 {
-    padding-left: 10%;
+    padding-left: 6%;
     margin-bottom: 1px;
+    font-size: 15px;
 } 
 #community_text4 {
-    padding-left: 10%;
+    padding-left: 6%;
     margin-bottom: 1px;
+    font-size: 15px;
 } 
 #community_text5 {
-    padding-left: 10%;
+    padding-left: 6%;
+    font-size: 15px;
+}
+#else_content {
+    border: 1px solid gray;
+    border-radius: 10%;
+    margin-left: 1%;
+    margin-top: 2%;
+    width: 190px;
 }  
+#else_content1 {
+ margin-left: 3%;
+ margin-top: 4%;  
+}
+#else_content2 {
+ margin-left: 3%;    
+}
+#else_content3 {
+ margin-left: 3%;
+ margin-bottom: 3%;    
+}
+#top_right_menu {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+#top_right_menu div {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#top_right_NOTICE {
+    padding-right: 3%;
+}
