@@ -13,7 +13,7 @@
     background-color: saddlebrown;
 }
 .window3 {
-    width: 1002px;
+    width: 1090px;
     height: 150px;
     background-color: sandybrown;
     margin-left: 400px;
@@ -83,7 +83,7 @@
 #community_text1 {
     padding-left: 6%;
     margin-bottom: 1px;
-    margin-top: 30%;
+    margin-top: 35%;
     font-size: 15px;
 }
 #community_text2 {
@@ -133,8 +133,52 @@
     margin-right: 5px;
 }
 #top_right_NOTICE {
-    padding-right: 5%;
+    padding-right: 3%;
 }
-#main_menu_bar img {
-    
+#menu_image_text1 {
+    width: 50%;
+    height: 50%;
+}
+#main {
+    display: block;
+    background-image: url(../img/main_menu_bg.png);
+    width: 757px;
+    height: 38px;
+    display: flex;
+    text-align: center;
+}
+#main > span {
+    flex: 1;
+}
+#menu_image_text1 {
+ color: white;
+ margin-top : 1%
+}
+#menu_image_text2 {
+ color: white;
+ margin-top : 1%    
+}
+#menu_image_text3 {
+ color: white;
+ margin-top : 1%    
+}
+#menu_image_text4 {
+ color: white;
+ margin-top : 1%    
+}
+#menu_image_text5 {
+ color: white;
+ margin-top : 1%    
+}
+#comm {
+    margin-top: 2%;
+}
+#free_title {
+    border: solid 2px grey;
+    border-color: honeydew;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    width: 756px;
+    margin-left: 5%;
 }
