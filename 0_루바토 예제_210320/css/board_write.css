@@ -1,0 +1,43 @@
+#whole {
+    width: 970px;
+    height: 867px;
+    background-color: black;
+    margin-left: 20%;
+}
+#window1 {
+    width: 970px;
+    height: 125px;
+    background-color: blanchedalmond;
+    /* display: flex; */
+    float: left;
+}
+#window2 {
+    width: 220px;
+    height: 617px;
+    background-color: blue;
+    display: flex;
+    float: left;
+}
+#window3 {
+    width: 730px;
+    height: 617px;
+    background-color: blueviolet;
+    margin-left: 240px;
+}
+#window4 {
+    width: 970px;
+    height: 100px;
+    background-color: chartreuse;
+}
+
+
+#window1_image {
+    width: 180px;
+}
+#window1_text {
+    float: right;
+    margin-right: 20px;
+}
+#window1_menu {
+    float: right;
+}
