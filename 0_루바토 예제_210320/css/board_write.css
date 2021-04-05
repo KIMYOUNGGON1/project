@@ -6,7 +6,7 @@
 }
 #window1 {
     width: 970px;
-    height: 125px;
+    height: 90px;
     background-color: blanchedalmond;
     /* display: flex; */
     float: left;
@@ -40,4 +40,6 @@
 }
 #window1_menu {
     float: right;
+    background-image: url("../img/main_menu_bg.png");
+    width: 760px;
 }
