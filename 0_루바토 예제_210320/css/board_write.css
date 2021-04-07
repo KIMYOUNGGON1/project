@@ -1,45 +1,93 @@
+/* 전체윤곽 */
 #whole {
     width: 970px;
-    height: 867px;
-    background-color: black;
+    height: 897px;
+    /* background-color: black; */
     margin-left: 20%;
 }
+
 #window1 {
-    width: 970px;
-    height: 90px;
-    background-color: blanchedalmond;
-    /* display: flex; */
+    width: 220px;
+    height: 780px;
+    background-color: blue;
     float: left;
 }
 #window2 {
-    width: 220px;
-    height: 617px;
-    background-color: blue;
-    display: flex;
-    float: left;
-}
-#window3 {
     width: 730px;
-    height: 617px;
+    height: 780px;
     background-color: blueviolet;
     margin-left: 240px;
 }
-#window4 {
+#window3 {
     width: 970px;
-    height: 100px;
+    height: 117px;
     background-color: chartreuse;
 }
+/* window1 상단 로고*/
 
-
+#window1image {
+    width: 230px;
+    margin-top: 3%;
+    margin-left: 5%;
+}
 #window1_image {
-    width: 180px;
+    width: 200px;
 }
-#window1_text {
-    float: right;
-    margin-right: 20px;
+
+/* window1 로그인 박스 */
+#window1login {
+    border: 2px solid ghostwhite;
+    background-color: gainsboro;
+    border-radius: 5%;
+    width:210px;
+    height: 130px;
+    margin-top: 6%;
+    margin-left: 3px;
+    margin-right: 2px;
 }
-#window1_menu {
+#window1login h3 {
+    font-weight: bold;
+    height: 10px;
+    margin-top: 5px;
+    margin-bottom: 13%;
+}
+#member {
+    color: greenyellow;
+    float: left;
+    margin-left: 1%;
+    margin-right: 4%;
+}
+#loginbutton {
     float: right;
-    background-image: url("../img/main_menu_bg.png");
-    width: 760px;
+    height: 54px;
+    margin-right: 2%;
+}
+#window1login input {
+    width:110px;
+    margin-left: 5%;
+}
+#join {
+    float: left;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+#search {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+#communityimage {
+    width: 187px;
+    height: 320px;
+    margin-top: 3%;
+    margin-left: 7%;
+    position: relative;
+    background-image: url("../img/sub_menu_bg.png");
+    background-repeat: no-repeat;
+}
+#couunuitytext {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 185px;
+    height: 310px;
 }
