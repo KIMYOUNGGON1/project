@@ -9,7 +9,7 @@
 #window1 {
     width: 220px;
     height: 780px;
-    background-color: blue;
+    /* background-color: blue; */
     float: left;
 }
 #window2 {
@@ -23,8 +23,11 @@
     height: 117px;
     background-color: chartreuse;
 }
-/* window1 상단 로고*/
 
+
+
+
+/* window1 상단 로고*/
 #window1image {
     width: 230px;
     margin-top: 3%;
@@ -33,6 +36,9 @@
 #window1_image {
     width: 200px;
 }
+
+
+
 
 /* window1 로그인 박스 */
 #window1login {
@@ -83,11 +89,44 @@
     position: relative;
     background-image: url("../img/sub_menu_bg.png");
     background-repeat: no-repeat;
-}
-#couunuitytext {
-    margin-top: 10px;
     display: flex;
     flex-direction: column;
-    width: 185px;
-    height: 310px;
+}
+#communityimage div {
+    margin-left: 5%;
+    padding-top: 5%;
+}
+#comm {
+    margin-top: 40%;
+}
+#communitybottom {
+    border: 2px gray solid;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 190px;
+    margin-left: 5%;
+}
+#communitybottom div {
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+/*window2*/
+#top_right {
+    float: right;
+    margin-right: 6%;
+}
+#top_menu {
+    background-image: url("../img/main_menu_bg.png");
+    background-repeat: no-repeat;
+    width:700px
+}
+#top_menu div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
