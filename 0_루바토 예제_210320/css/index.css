@@ -1,0 +1,59 @@
+#whole {
+    width: 1200px;
+    height: 900px;
+    margin-left: 20%;
+    background-color: black;
+}
+#window1 {
+    width: 300px;
+    height: 750px;
+    background-color: blue;
+    float: left;
+}
+#window2 {
+    width: 875px;
+    height: 750px;
+    margin-left: 320px;
+    background-color: blueviolet;
+}
+#window3 {
+    width: 1200px;
+    height: 150px;
+    background-color: chartreuse;
+}
+
+
+#window1logo {
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#loginbox {
+    border: 1px solid steelblue;
+    border-radius: 10%;
+}
+#loginboxmember {
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: greenyellow;
+    }
+#loginboxlogin {
+    margin-left: 110px;
+    margin-top: 5px;
+}
+#id {
+    margin-left: 20px;
+    width: 150px;
+}
+#password {
+    margin-left: 20px;
+    width: 150px;
+}
+#loginbutton {
+    float: right;
+    margin-right: 5%;
+    width: 70px;
+    height: 50px;
+}
