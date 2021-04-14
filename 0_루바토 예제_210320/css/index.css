@@ -1,19 +1,20 @@
 #whole {
     width: 1200px;
-    height: 900px;
+    height: 910px;
     margin-left: 20%;
-    background-color: black;
+    /* background-color: black; */
 }
 #window1 {
     width: 300px;
-    height: 750px;
-    background-color: blue;
+    height: 760px;
+    /* background-color: blue; */
     float: left;
 }
 #window2 {
-    width: 875px;
-    height: 750px;
-    margin-left: 320px;
+    width: 750px;
+    height: 760px;
+    margin-left: 300px;
+    margin-bottom: ;
     background-color: blueviolet;
 }
 #window3 {
@@ -22,7 +23,7 @@
     background-color: chartreuse;
 }
 
-
+/* window1 */
 #window1logo {
     width: 180px;
     height: 100px;
@@ -36,6 +37,7 @@
     width: 220px;
     height: 132px;
     margin-left: 14%;
+    background-color: darkgray;
 }
 #loginboxmember {
     float: left;
@@ -76,7 +78,7 @@
     background-image: url("..//img/sub_menu_bg.png");
     background-repeat: no-repeat;
     width: 210px;
-    height: 400px;
+    height: 325px;
     margin-left: 60px;
 }
 #commu div {
@@ -91,5 +93,33 @@
     border: 1px solid steelblue;
     border-radius: 10%;
     width: 200px;
-    height: 160px;
+    height: 170px;
+    margin-left: 18%;
+}
+#window1_bottom img {
+    margin-left: 6%;
+    margin-top: 2%;
+}
+/* window1 */
+
+
+/* window2 */
+
+#window2_rightstart {
+    float: right;
+    margin-right: 30px;
+    padding-top: 10px;
+}
+#window2_mainmenu {
+    width: 780px;
+    height: 50px;
+    padding-top: 8px;
+    background-image: url("../img/main_menu_bg.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly ;
+    margin-top: 5px;
+}
+#window2text1 {
+    margin-right: 15px;
 }
