@@ -117,9 +117,37 @@
     background-image: url("../img/main_menu_bg.png");
     background-repeat: no-repeat;
     display: flex;
-    justify-content: space-evenly ;
     margin-top: 5px;
 }
+#window2_mainmenu div {
+    color: white;
+}
 #window2text1 {
-    margin-right: 15px;
+    margin-left: 45px;
+}
+#window2text2 {
+    margin-left: 80px;
+}
+#window2text3 {
+    margin-left: 75px;
+}
+#window2text4 {
+    margin-left: 60px;
+}
+#window2text5 {
+    margin-left: 70px;
+}
+
+#community {
+    width: 750px;
+    height: 230px;
+}
+
+#free h3 {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 15px;
+}
+#freewhole {
+    display: flex;
 }
