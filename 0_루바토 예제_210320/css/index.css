@@ -150,4 +150,73 @@
 }
 #freewhole {
     display: flex;
+    justify-content: space-between;
+    height: 20px;
+}
+#freetext1 {
+    margin-left: 5px;
+}
+#select {
+    display: flex;
+    justify-content: space-evenly;
+}
+#selectimage {
+    width: 70px;
+    height: 20px;
+    margin-right: 5px;
+}
+#form {
+    display: flex;
+    width: 60px;
+    height: 20px;
+    margin-right: 10px;
+}
+#selectinput {
+    display: flex;
+    margin-right: 10px;
+    width: 100px;
+}
+#searchimage {
+    display: flex;
+    margin-right: 10px;
+    width: 50px;
+    height: 23px;
+}
+
+#freetitle {
+    display: flex;
+    background-color: gainsboro;
+    border: gray solid 2px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 10px;
+}
+#freetitle div {
+    font-weight: bold;
+}
+#freetitle1 {
+    margin-left: 15px;
+}
+#freetitle2 {
+    margin-left: 260px;
+}
+#freetitle3 {
+    margin-left: 170px;
+}
+#freetitle4 {
+    margin-left: 50px;
+}
+#freetitle5 {
+    margin-left: 50px;
+}
+
+#freetitlecontent1 {
+    display: flex;
+}
+#freetitlecontent2 {
+    display: flex;
+}
+#freetitlecontent3 {
+    display: flex;
 }
