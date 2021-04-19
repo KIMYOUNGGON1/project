@@ -15,12 +15,12 @@
     height: 760px;
     margin-left: 300px;
     margin-bottom: ;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 #window3 {
-    width: 1200px;
+    width: 1050px;
     height: 150px;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 }
 
 /* window1 */
@@ -213,10 +213,94 @@
 
 #freetitlecontent1 {
     display: flex;
+    padding-top: 10px;
 }
+#freetitlecontent1_1 {
+ margin-left: 25px;
+}
+#freetitlecontent1_2 {
+ margin-left: 35px;
+}
+#freetitlecontent1_3 {
+ margin-left: 260px;
+}
+#freetitlecontent1_4 {
+ margin-left: 30px;
+}
+#freetitlecontent1_5 {
+ margin-left: 30px;
+}
+
 #freetitlecontent2 {
     display: flex;
+    padding-top: 10px;
 }
+
+#freetitlecontent2_1 {
+ margin-left: 25px;
+}
+#freetitlecontent2_2 {
+ margin-left: 35px;
+}
+#freetitlecontent2_3 {
+ margin-left: 235px;
+}
+#freetitlecontent2_4 {
+margin-left: 30px;
+}
+#freetitlecontent2_5 {
+margin-left: 35px;
+}
+
 #freetitlecontent3 {
     display: flex;
+    padding-top: 10px;
+}
+
+#freetitlecontent3_1 {
+ margin-left: 25px;
+}
+#freetitlecontent3_2 {
+ margin-left: 35px;
+}
+#freetitlecontent3_3 {
+ margin-left: 200px;
+}
+#freetitlecontent3_4 {
+ margin-left: 30px;
+}
+#freetitlecontent3_5 {
+ margin-left: 30px;
+}
+
+#page {
+    display: flex;
+    padding-top: 20px;
+}
+#pageselect {
+    margin-left: 290px;
+}
+#pagelist {
+    margin-left: 180px;
+    width: 50px;
+    height: 26px;
+}
+#pagewrite {
+    margin-left: 10px;
+    width: 80px;
+    height: 28px;
+}
+
+
+ #window3content {
+    display: flex;
+    justify-content: space-evenly;
+} 
+#footerimage1 {
+    width: 180px;
+    height: 100px;
+    margin-left: 190px;
+}
+#footerimage2 {
+    margin-top: 30px;
 }
