@@ -1,8 +1,9 @@
 #whole {
-    width: 1200px;
-    height: 910px;
+    width: 100vw;
+    height: 100vh;
     margin-left: 20%;
     /* background-color: black; */
+
 }
 #window1 {
     width: 300px;
