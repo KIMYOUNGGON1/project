@@ -304,9 +304,12 @@
     font-weight: bold;
     font-size: 15px;
     width: 50px;
+}
+#lista {
     margin-top: 1%;
     margin-right: 2%;
 }
+
 
 /*window3*/
 #window3flex {
