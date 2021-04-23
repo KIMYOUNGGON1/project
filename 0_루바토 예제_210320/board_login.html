@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="../css/board_login.css">
+    <link rel="stylesheet" href="css/board_login.css">
     <style>
     </style>
 </head>
@@ -12,16 +12,22 @@
 
     <div id="whole">
         <div id="window1">
-            <img src="img/logo.png" alt="">
+            <img id="window1logo" src="img/logo.png" alt="">
         </div>
 
         <div id="window2">
-            <h4>로그인</h4>
-            <form action="board_list.html" method="POST">
-                ID: <input name="id" type="text"><br>
-                PW: <input name="pw" type="password"><br>
-                <input type="submit" value="로그인"> <input type="button" value="회원가입">
-            </form>
+            <div id="window2tool">
+                <h2 >로그인</h2>
+                <form  id="window2form" action="board_list.html" method="POST">
+                    <div id="window2_id">
+                        ID: <input name="id" type="text"><br>
+                    </div>
+                    <div id="window2_pw">
+                        PW: <input name="pw" type="password"><br>
+                    </div>
+                    <input type="submit" value="로그인"> <input type="button" value="회원가입">
+                </form>
+            </div>
 
         </div>
 

@@ -1,5 +1,55 @@
 #whole {
-    width: 1050px;
-    height: 500px;
-    background-color: black;
+    width: 1000px;
+    height: 700px;
+    background-color: white;
+    margin-left: 20%;
+    border: 2px greenyellow solid;
+    
+}
+#window1 {
+    width: 800px;
+    height: 200px;
+    background-color: blue;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+#window1logo {
+    width: 300px;
+    height: 100px;
+    margin-left: 250px;
+}
+
+
+#window2 {
+    width: 800px;
+    height: 200px;
+    background-color: red;
+    margin-left: 100px;
+}
+#window2tool {
+    border: solid greenyellow 5px;
+    height: 190px;
+
+}
+#window2tool h2 {
+    margin-left: 350px;
+    width: 800px;
+    height: 5px;
+    padding-bottom: 10px;
+}
+#window2form {
+    margin-left: 80px;
+}
+#window2id {
+    padding-left: 80px;
+}
+
+
+#window3 {
+    width: 800px;
+    height: 100px;
+    background-color: rosybrown;
+    margin-left: 100px;
 }
