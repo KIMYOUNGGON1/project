@@ -9,7 +9,7 @@
 #window1 {
     width: 800px;
     height: 200px;
-    background-color: blue;
+    background-color: greenyellow;
     margin-left: 100px;
     margin-top: 50px;
     display: flex;
@@ -31,20 +31,37 @@
 #window2tool {
     border: solid greenyellow 5px;
     height: 190px;
-
 }
+#loginbox {
+    border: 2px solid greenyellow;
+    background-color: honeydew;
+    width: 400px;
+    height: 150px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
 #window2tool h2 {
-    margin-left: 350px;
-    width: 800px;
+    margin-left: 170px;
     height: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 #window2form {
+    margin-left: 90px;
+    display: flex;/
+}
+#window2_id {
+    padding-left: 2px;
+}
+#loginsubmit {
+    margin-top: 15px;
     margin-left: 80px;
 }
-#window2id {
-    padding-left: 80px;
+#joinbutton {
+    margin-left: 180px;
+    margin-top: 15px;
 }
+
 
 
 #window3 {
