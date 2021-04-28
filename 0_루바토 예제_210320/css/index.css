@@ -1,3 +1,26 @@
+@media (max-width : 1050px) {
+    #whole {
+        width: 525px;
+        height: 455px;
+        margin: auto;
+    }
+    #window1{
+        width: 150px;
+        height: 380px;
+    }
+    #window2{
+        width: 375px;
+        height: 380px;
+    }
+    #window3{
+        width: 525px;
+        height: 75px;
+    }
+}
+
+
+
+
 #whole {
     width: 100vw;
     height: 100vh;
