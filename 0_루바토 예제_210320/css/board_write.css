@@ -1,4 +1,20 @@
 /* 전체윤곽 */
+
+@media (max-width: 1050px) {
+    #whole {
+        width: 485px;
+        height: 452px;
+        margin: auto;
+    }
+    #window1 {
+        width: 110px;
+        height: 390px;
+    }
+    #window2 {
+        width: 750;
+    }
+}
+
 #whole {
     width: 970px;
     height: 897px;

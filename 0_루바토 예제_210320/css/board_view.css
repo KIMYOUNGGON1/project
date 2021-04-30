@@ -1,22 +1,38 @@
+
+
+/* @media (max-width: 1090px) {
+   .whole {
+       width: 545px;
+       height: 406px;
+       margin: auto;
+       
+   }
+} */
+
+.whole {
+    width: 1090px;
+    height: 811px;
+    margin: auto;
+}
 .window1 {
     float: left;
     width: 285px;
     height: 711px;
     /* background-color: royalblue; */
-    margin-left: 400px;
+    /*margin-left: 400px;*/
 
 }
 .window2 {
-    margin-left: 640px;
+    margin-left: 240px;
     width: 850px;
     height: 711px;
-    /* background-color: saddlebrown; */
+    /*background-color: saddlebrown;*/
 }
 .window3 {
     width: 1090px;
     height: 100px;
     /* background-color: sandybrown; */
-    margin-left: 400px;
+    /*margin-left: 400px;*/
 }
 #mainLogo {
     margin-left: 20%;
