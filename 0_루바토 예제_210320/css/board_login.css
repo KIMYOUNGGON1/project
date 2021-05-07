@@ -1,74 +1,56 @@
 #whole {
-    width: 1000px;
-    height: 700px;
-    background-color: white;
-    margin-left: 20%;
-    border: 2px greenyellow solid;
-    
+    width: 1050px;
+    height: 1000px;
+    margin: auto;
 }
+
 #window1 {
-    width: 800px;
-    height: 200px;
-    background-color: greenyellow;
-    margin-left: 100px;
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-}
-#window1logo {
     width: 300px;
-    height: 100px;
-    margin-left: 250px;
+    height: 850px;
+    background-color: black;
+    float: left;
 }
-
-
 #window2 {
-    width: 800px;
-    height: 200px;
-    background-color: red;
-    margin-left: 100px;
+    width: 750px;
+    height: 850px;
+    background-color: blue;
+    margin-left: 300px;
 }
-#window2tool {
-    border: solid greenyellow 5px;
-    height: 190px;
-}
-#loginbox {
-    border: 2px solid greenyellow;
-    background-color: honeydew;
-    width: 400px;
-    height: 150px;
-    margin-left: 200px;
-    margin-top: 20px;
-}
-
-#window2tool h2 {
-    margin-left: 170px;
-    height: 5px;
-    padding-bottom: 5px;
-}
-#window2form {
-    margin-left: 90px;
-}
-#window2_id {
-    padding-left: 2px;
-}
-#loginsubmit {
-    margin-top: 15px;
-    margin-left: 80px;
-}
-#joinbutton {
-    margin-left: 180px;
-    margin-top: 15px;
-}
-#loginbutton {
-    margin-left: 50px;
-}
-
-
-
 #window3 {
-    width: 800px;
+    width: 1050px;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+#window1logo {
+    width: 200px;
     height: 100px;
-    background-color: rosybrown;
-    margin-left: 100px;
+    margin: 20px 50px;
+}
+#window1comm {
+    width: 200px;
+    height: 400px;
+    margin: 5px 50px;
+    background-image: url("../img/sub_menu_bg.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    display: flex;
+    flex-direction: column;
+}
+#window1comm div {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.commtext1 {
+    padding-top: 85px;
+}
+#window1comm2 {
+    width: 220px;
+    height: 200px;
+    margin: 0px 40px;
+    border: 2px solid green;
+    border-radius: 10%; 
+}
+#comm2image1 {
+    margin: 5px 5px;
 }
