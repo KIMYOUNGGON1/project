@@ -7,7 +7,7 @@
 #window1 {
     width: 300px;
     height: 850px;
-    background-color: black;
+    /* background-color: black; */
     float: left;
 }
 #window2 {
@@ -53,4 +53,36 @@
 }
 #comm2image1 {
     margin: 5px 5px;
+}
+#window1comm2 img {
+    margin-top: 13px;
+    margin-left: 20px;
+}
+
+#window2top {
+    padding-top: 15px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+.window2menu {
+    background-image: url("../img/main_menu_bg.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    padding-top: 10px;
+}
+#window2content {
+    width : 740px;
+    height: 600px;
+    margin: 0px 5px;
+    border: greenyellow solid 2px;
+    border-radius: 10%;
+}
+#window2loginbox {
+    border: solid 5px blueviolet;
+    border-radius: 10%;
+    width:365px;
+    height: 302px;
+    margin: 150px 170px;
 }
