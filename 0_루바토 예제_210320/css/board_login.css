@@ -13,13 +13,13 @@
 #window2 {
     width: 750px;
     height: 850px;
-    background-color: blue;
+    /* background-color: blue; */
     margin-left: 300px;
 }
 #window3 {
     width: 1050px;
     height: 150px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 #window1logo {
@@ -72,6 +72,9 @@
     height: 100px;
     padding-top: 10px;
 }
+.window2menu div {
+    color: white;
+}
 #window2content {
     width : 740px;
     height: 600px;
@@ -85,4 +88,75 @@
     width:365px;
     height: 302px;
     margin: 150px 170px;
+}
+#window2loginbox h1 {
+    margin-left: 130px;
+}
+#idinput {
+    display: flex;
+}
+#pwinput {
+    display: flex;
+}
+#ID {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 12px;
+}
+#PW {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 55px;
+    margin-right: 5px;
+}
+#loginbtn {
+    width: 85px;
+    height: 65px;
+    float: right;
+    margin-right: 7px;
+    margin-bottom: 30px;
+}
+#join1 {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+#join2 {
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 20px;
+}
+#search1 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#search2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+#idatag {
+    text-decoration: none;
+    color: black;
+    width: 310px;
+    height: 20px;
+}
+#pwatag {
+    text-decoration: none;
+    color: black;
+}
+
+#window3content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#window3image1 {
+    width: 140px;
+    height: 70px;
 }
